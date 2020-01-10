@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39140B901DBD69540036A6C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 397C560D1B74DA66007A67F0 /* Main.storyboard */; };
+		39277A091B58228000293F95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39277A081B58228000293F95 /* main.m */; };
+		39277A0C1B58228000293F95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39277A0B1B58228000293F95 /* AppDelegate.m */; };
+		39277A171B58228000293F95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39277A161B58228000293F95 /* Assets.xcassets */; };
+		3938FAEF1B6BE4FD009FD48A /* LoremIpsum.m in Sources */ = {isa = PBXBuildFile; fileRef = 3938FAEE1B6BE4FD009FD48A /* LoremIpsum.m */; };
+		39631FAD230DA03E0059D119 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39631FAC230DA03E0059D119 /* SceneDelegate.m */; };
+		39837A201B756F1A004D2DA9 /* RandomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 39837A1F1B756F1A004D2DA9 /* RandomColors.m */; };
+		39837A261B759721004D2DA9 /* PortraitTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39837A251B759721004D2DA9 /* PortraitTabBarController.swift */; };
+		39DA0E8322D7B9C6001E63A0 /* NSObject+XcodeBugs.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DA0E8222D7B9C6001E63A0 /* NSObject+XcodeBugs.m */; };
+		39DDA0AE230D5F63007DCCD8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DDA0AD230D5F63007DCCD8 /* MapKit.framework */; };
+		5842A04C23AEDBB6003175C3 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5842A04B23AEDBB6003175C3 /* UserDefaults.swift */; };
+		584EB19923AA104200284B7B /* SubmissionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584EB19823AA104200284B7B /* SubmissionsViewController.swift */; };
+		584EB19D23AA1A0200284B7B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584EB19C23AA1A0200284B7B /* SearchViewController.swift */; };
+		5870863723BC4A90004B0721 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5870863623BC4A90004B0721 /* CategoryViewController.swift */; };
+		58757F5423AA09EC003D9B3D /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58757F5323AA09EC003D9B3D /* TodayViewController.swift */; };
+		58757F7323AA0A5C003D9B3D /* TermsAndConditionSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58757F5923AA0A5C003D9B3D /* TermsAndConditionSection.swift */; };
+		58757F7423AA0A5C003D9B3D /* SmallAppSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58757F5A23AA0A5C003D9B3D /* SmallAppSection.swift */; };
+		58757F7A23AA0A5C003D9B3D /* TermsAndConditionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58757F6323AA0A5C003D9B3D /* TermsAndConditionsCell.swift */; };
+		58757F7B23AA0A5C003D9B3D /* TermsAndConditionsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58757F6423AA0A5C003D9B3D /* TermsAndConditionsCell.xib */; };
+		58757F7C23AA0A5C003D9B3D /* SmallAppCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58757F6523AA0A5C003D9B3D /* SmallAppCell.swift */; };
+		58757F7D23AA0A5C003D9B3D /* SectionTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58757F6623AA0A5C003D9B3D /* SectionTitleCell.xib */; };
+		58757F7F23AA0A5C003D9B3D /* SmallAppCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58757F6823AA0A5C003D9B3D /* SmallAppCell.xib */; };
+		58757F8023AA0A5C003D9B3D /* SectionTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58757F6923AA0A5C003D9B3D /* SectionTitleCell.swift */; };
+		58757F8123AA0A5C003D9B3D /* TodayTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58757F6A23AA0A5C003D9B3D /* TodayTitleCell.xib */; };
+		58757F8323AA0A5C003D9B3D /* TodayTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58757F6C23AA0A5C003D9B3D /* TodayTitleCell.swift */; };
+		58757F8423AA0A5C003D9B3D /* ExtraLargeAppCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58757F6D23AA0A5C003D9B3D /* ExtraLargeAppCell.swift */; };
+		58757F8523AA0A5C003D9B3D /* postCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58757F6E23AA0A5C003D9B3D /* postCell.xib */; };
+		58757F8623AA0A5C003D9B3D /* ExtraLargeAppCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58757F6F23AA0A5C003D9B3D /* ExtraLargeAppCell.xib */; };
+		58757F9E23AA0ADC003D9B3D /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58757F8A23AA0ADC003D9B3D /* UIView.swift */; };
+		58757FA123AA0ADC003D9B3D /* WordPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58757F8F23AA0ADC003D9B3D /* WordPress.swift */; };
+		58757FA323AA0ADC003D9B3D /* HTMLString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58757F9123AA0ADC003D9B3D /* HTMLString.swift */; };
+		58757FA623AA0ADC003D9B3D /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58757F9423AA0ADC003D9B3D /* ButtonExtension.swift */; };
+		58757FA723AA0ADC003D9B3D /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58757F9523AA0ADC003D9B3D /* UIImage.swift */; };
+		5875C79623C6926400AD7B3C /* AzuraCast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5875C79523C6926400AD7B3C /* AzuraCast.swift */; };
+		5875C79823C692B200AD7B3C /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5875C79723C692B200AD7B3C /* UITableView.swift */; };
+		5875C79C23C6946C00AD7B3C /* YouTubeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5875C79B23C6946C00AD7B3C /* YouTubeAPI.swift */; };
+		58856C6B23C3DF2D009FAD85 /* WordpressSites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58856C6A23C3DF2D009FAD85 /* WordpressSites.swift */; };
+		58856C6E23C46AF7009FAD85 /* Sources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58856C6D23C46AF7009FAD85 /* Sources.swift */; };
+		58856C7023C526CB009FAD85 /* Firebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58856C6F23C526CB009FAD85 /* Firebase.swift */; };
+		58A8759723AAD4B0005738A8 /* cvLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A8759623AAD4B0005738A8 /* cvLayout.swift */; };
+		58A8759F23AC747C005738A8 /* Shadows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A8759E23AC747C005738A8 /* Shadows.swift */; };
+		58E3662B23C76B17000CBA3F /* CategoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E3662A23C76B17000CBA3F /* CategoryListViewController.swift */; };
+		58F06CA223AD683E00413162 /* TodayAppCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58F06CA023AD683E00413162 /* TodayAppCell.xib */; };
+		58F06CA323AD683E00413162 /* TodayAppCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F06CA123AD683E00413162 /* TodayAppCell.swift */; };
+		58F06CA523AD685C00413162 /* TodayAppSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F06CA423AD685C00413162 /* TodayAppSection.swift */; };
+		BE3AF3525A63D1E5B803F23B /* Pods_Wordpress_Reader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 587D9EDAC4439624E451B0F1 /* Pods_Wordpress_Reader.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		39DB61841B8891EE001BFF8F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0CB8AC0D2283C7113C267328 /* Pods_LNPopupControllerExample_LNPopupControllerExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LNPopupControllerExample_LNPopupControllerExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		111C4CD1282C63DD6655F197 /* Pods-Wordpress Reader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wordpress Reader.release.xcconfig"; path = "Target Support Files/Pods-Wordpress Reader/Pods-Wordpress Reader.release.xcconfig"; sourceTree = "<group>"; };
+		39277A041B58228000293F95 /* UVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39277A081B58228000293F95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39277A0A1B58228000293F95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		39277A0B1B58228000293F95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		39277A161B58228000293F95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3938FAED1B6BE4FD009FD48A /* LoremIpsum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoremIpsum.h; sourceTree = "<group>"; };
+		3938FAEE1B6BE4FD009FD48A /* LoremIpsum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoremIpsum.m; sourceTree = "<group>"; };
+		39631FAB230DA03D0059D119 /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		39631FAC230DA03E0059D119 /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		397C560D1B74DA66007A67F0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		39837A1F1B756F1A004D2DA9 /* RandomColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomColors.m; sourceTree = "<group>"; };
+		39837A211B756F4C004D2DA9 /* RandomColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RandomColors.h; sourceTree = "<group>"; };
+		39837A251B759721004D2DA9 /* PortraitTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortraitTabBarController.swift; sourceTree = "<group>"; };
+		39DA0E8122D7B9C6001E63A0 /* NSObject+XcodeBugs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+XcodeBugs.h"; sourceTree = "<group>"; };
+		39DA0E8222D7B9C6001E63A0 /* NSObject+XcodeBugs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XcodeBugs.m"; sourceTree = "<group>"; };
+		39DDA0AD230D5F63007DCCD8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5842A04B23AEDBB6003175C3 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		584EB19823AA104200284B7B /* SubmissionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmissionsViewController.swift; sourceTree = "<group>"; };
+		584EB19C23AA1A0200284B7B /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		5870863623BC4A90004B0721 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		58757F5323AA09EC003D9B3D /* TodayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		58757F5923AA0A5C003D9B3D /* TermsAndConditionSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsAndConditionSection.swift; sourceTree = "<group>"; };
+		58757F5A23AA0A5C003D9B3D /* SmallAppSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallAppSection.swift; sourceTree = "<group>"; };
+		58757F6323AA0A5C003D9B3D /* TermsAndConditionsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsAndConditionsCell.swift; sourceTree = "<group>"; };
+		58757F6423AA0A5C003D9B3D /* TermsAndConditionsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TermsAndConditionsCell.xib; sourceTree = "<group>"; };
+		58757F6523AA0A5C003D9B3D /* SmallAppCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallAppCell.swift; sourceTree = "<group>"; };
+		58757F6623AA0A5C003D9B3D /* SectionTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SectionTitleCell.xib; sourceTree = "<group>"; };
+		58757F6823AA0A5C003D9B3D /* SmallAppCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmallAppCell.xib; sourceTree = "<group>"; };
+		58757F6923AA0A5C003D9B3D /* SectionTitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionTitleCell.swift; sourceTree = "<group>"; };
+		58757F6A23AA0A5C003D9B3D /* TodayTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TodayTitleCell.xib; sourceTree = "<group>"; };
+		58757F6C23AA0A5C003D9B3D /* TodayTitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayTitleCell.swift; sourceTree = "<group>"; };
+		58757F6D23AA0A5C003D9B3D /* ExtraLargeAppCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtraLargeAppCell.swift; sourceTree = "<group>"; };
+		58757F6E23AA0A5C003D9B3D /* postCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = postCell.xib; sourceTree = "<group>"; };
+		58757F6F23AA0A5C003D9B3D /* ExtraLargeAppCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExtraLargeAppCell.xib; sourceTree = "<group>"; };
+		58757F8A23AA0ADC003D9B3D /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		58757F8E23AA0ADC003D9B3D /* WordPress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordPress.h; sourceTree = "<group>"; };
+		58757F8F23AA0ADC003D9B3D /* WordPress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordPress.swift; sourceTree = "<group>"; };
+		58757F9123AA0ADC003D9B3D /* HTMLString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTMLString.swift; sourceTree = "<group>"; };
+		58757F9423AA0ADC003D9B3D /* ButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
+		58757F9523AA0ADC003D9B3D /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		5875C78E23C68DDE00AD7B3C /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		5875C79323C6904100AD7B3C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "/Users/t3zz/e/LNPopupController/LNPopupControllerExample/Wordpress Reader/Info.plist"; sourceTree = "<absolute>"; };
+		5875C79523C6926400AD7B3C /* AzuraCast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AzuraCast.swift; sourceTree = "<group>"; };
+		5875C79723C692B200AD7B3C /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		5875C79B23C6946C00AD7B3C /* YouTubeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeAPI.swift; sourceTree = "<group>"; };
+		587D9EDAC4439624E451B0F1 /* Pods_Wordpress_Reader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wordpress_Reader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58856C6A23C3DF2D009FAD85 /* WordpressSites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordpressSites.swift; sourceTree = "<group>"; };
+		58856C6D23C46AF7009FAD85 /* Sources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources.swift; sourceTree = "<group>"; };
+		58856C6F23C526CB009FAD85 /* Firebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase.swift; sourceTree = "<group>"; };
+		58A8759623AAD4B0005738A8 /* cvLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cvLayout.swift; sourceTree = "<group>"; };
+		58A8759E23AC747C005738A8 /* Shadows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadows.swift; sourceTree = "<group>"; };
+		58E3662A23C76B17000CBA3F /* CategoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListViewController.swift; sourceTree = "<group>"; };
+		58F06CA023AD683E00413162 /* TodayAppCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TodayAppCell.xib; sourceTree = "<group>"; };
+		58F06CA123AD683E00413162 /* TodayAppCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayAppCell.swift; sourceTree = "<group>"; };
+		58F06CA423AD685C00413162 /* TodayAppSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayAppSection.swift; sourceTree = "<group>"; };
+		E0018F1058F79BA629E80CD7 /* Pods-Wordpress Reader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wordpress Reader.debug.xcconfig"; path = "Target Support Files/Pods-Wordpress Reader/Pods-Wordpress Reader.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39277A011B58228000293F95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DDA0AE230D5F63007DCCD8 /* MapKit.framework in Frameworks */,
+				BE3AF3525A63D1E5B803F23B /* Pods_Wordpress_Reader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27F91BFE41995A3F0EDD2816 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0018F1058F79BA629E80CD7 /* Pods-Wordpress Reader.debug.xcconfig */,
+				111C4CD1282C63DD6655F197 /* Pods-Wordpress Reader.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		392779FB1B58228000293F95 = {
+			isa = PBXGroup;
+			children = (
+				39277A061B58228000293F95 /* Wordpress Reader */,
+				39277A051B58228000293F95 /* Products */,
+				39DDA0AC230D5F63007DCCD8 /* Frameworks */,
+				27F91BFE41995A3F0EDD2816 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		39277A051B58228000293F95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39277A041B58228000293F95 /* UVC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39277A061B58228000293F95 /* Wordpress Reader */ = {
+			isa = PBXGroup;
+			children = (
+				397C560C1B74D747007A67F0 /* Main App Scene (Swift) */,
+				39837A221B756F9B004D2DA9 /* Utils */,
+				39277A071B58228000293F95 /* Supporting Files */,
+			);
+			path = "Wordpress Reader";
+			sourceTree = "<group>";
+		};
+		39277A071B58228000293F95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				397C560A1B74D45F007A67F0 /* Swift Bridging Header */,
+				39277A161B58228000293F95 /* Assets.xcassets */,
+				5875C79323C6904100AD7B3C /* Info.plist */,
+				39277A0A1B58228000293F95 /* AppDelegate.h */,
+				39277A0B1B58228000293F95 /* AppDelegate.m */,
+				39631FAB230DA03D0059D119 /* SceneDelegate.h */,
+				39631FAC230DA03E0059D119 /* SceneDelegate.m */,
+				39277A081B58228000293F95 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		397C56091B74D450007A67F0 /* LoremIpsum */ = {
+			isa = PBXGroup;
+			children = (
+				3938FAED1B6BE4FD009FD48A /* LoremIpsum.h */,
+				3938FAEE1B6BE4FD009FD48A /* LoremIpsum.m */,
+			);
+			name = LoremIpsum;
+			sourceTree = "<group>";
+		};
+		397C560A1B74D45F007A67F0 /* Swift Bridging Header */ = {
+			isa = PBXGroup;
+			children = (
+				5875C78E23C68DDE00AD7B3C /* Bridging-Header.h */,
+			);
+			name = "Swift Bridging Header";
+			sourceTree = "<group>";
+		};
+		397C560C1B74D747007A67F0 /* Main App Scene (Swift) */ = {
+			isa = PBXGroup;
+			children = (
+				397C560D1B74DA66007A67F0 /* Main.storyboard */,
+				39837A251B759721004D2DA9 /* PortraitTabBarController.swift */,
+				58757F5223AA0978003D9B3D /* Today */,
+				584EB19A23AA104500284B7B /* Submissions */,
+				584EB19B23AA19DC00284B7B /* Search */,
+				58757F8823AA0ADC003D9B3D /* Extensions */,
+				58856C7723C668B0009FAD85 /* UICollectionView Cells */,
+			);
+			name = "Main App Scene (Swift)";
+			sourceTree = "<group>";
+		};
+		39837A221B756F9B004D2DA9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				397C56091B74D450007A67F0 /* LoremIpsum */,
+				39837A211B756F4C004D2DA9 /* RandomColors.h */,
+				39837A1F1B756F1A004D2DA9 /* RandomColors.m */,
+				39DA0E8122D7B9C6001E63A0 /* NSObject+XcodeBugs.h */,
+				39DA0E8222D7B9C6001E63A0 /* NSObject+XcodeBugs.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		39DDA0AC230D5F63007DCCD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39DDA0AD230D5F63007DCCD8 /* MapKit.framework */,
+				0CB8AC0D2283C7113C267328 /* Pods_LNPopupControllerExample_LNPopupControllerExampleUITests.framework */,
+				587D9EDAC4439624E451B0F1 /* Pods_Wordpress_Reader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		584EB19A23AA104500284B7B /* Submissions */ = {
+			isa = PBXGroup;
+			children = (
+				584EB19823AA104200284B7B /* SubmissionsViewController.swift */,
+			);
+			name = Submissions;
+			sourceTree = "<group>";
+		};
+		584EB19B23AA19DC00284B7B /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				584EB19C23AA1A0200284B7B /* SearchViewController.swift */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		58757F5223AA0978003D9B3D /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				58757F5323AA09EC003D9B3D /* TodayViewController.swift */,
+				58E3662A23C76B17000CBA3F /* CategoryListViewController.swift */,
+				5870863623BC4A90004B0721 /* CategoryViewController.swift */,
+				58856C6D23C46AF7009FAD85 /* Sources.swift */,
+			);
+			name = Today;
+			sourceTree = "<group>";
+		};
+		58757F8823AA0ADC003D9B3D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5875C79D23C6999000AD7B3C /* APIs */,
+				58856C7623C6686D009FAD85 /* Google */,
+				58856C7323C667CF009FAD85 /* UI */,
+				58757F8C23AA0ADC003D9B3D /* WordPress */,
+				5842A04B23AEDBB6003175C3 /* UserDefaults.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		58757F8C23AA0ADC003D9B3D /* WordPress */ = {
+			isa = PBXGroup;
+			children = (
+				58757F8E23AA0ADC003D9B3D /* WordPress.h */,
+				58757F8F23AA0ADC003D9B3D /* WordPress.swift */,
+				58856C6A23C3DF2D009FAD85 /* WordpressSites.swift */,
+			);
+			path = WordPress;
+			sourceTree = "<group>";
+		};
+		5875C79D23C6999000AD7B3C /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				5875C79523C6926400AD7B3C /* AzuraCast.swift */,
+				5875C79B23C6946C00AD7B3C /* YouTubeAPI.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		58856C7323C667CF009FAD85 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				58757F9123AA0ADC003D9B3D /* HTMLString.swift */,
+				58757F9523AA0ADC003D9B3D /* UIImage.swift */,
+				5875C79723C692B200AD7B3C /* UITableView.swift */,
+				58757F9423AA0ADC003D9B3D /* ButtonExtension.swift */,
+				58A8759E23AC747C005738A8 /* Shadows.swift */,
+				58A8759623AAD4B0005738A8 /* cvLayout.swift */,
+				58757F8A23AA0ADC003D9B3D /* UIView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		58856C7623C6686D009FAD85 /* Google */ = {
+			isa = PBXGroup;
+			children = (
+				58856C6F23C526CB009FAD85 /* Firebase.swift */,
+			);
+			path = Google;
+			sourceTree = "<group>";
+		};
+		58856C7723C668B0009FAD85 /* UICollectionView Cells */ = {
+			isa = PBXGroup;
+			children = (
+				58F06CA423AD685C00413162 /* TodayAppSection.swift */,
+				58F06CA123AD683E00413162 /* TodayAppCell.swift */,
+				58F06CA023AD683E00413162 /* TodayAppCell.xib */,
+				58757F5A23AA0A5C003D9B3D /* SmallAppSection.swift */,
+				58757F6523AA0A5C003D9B3D /* SmallAppCell.swift */,
+				58757F6823AA0A5C003D9B3D /* SmallAppCell.xib */,
+				58757F6D23AA0A5C003D9B3D /* ExtraLargeAppCell.swift */,
+				58757F6F23AA0A5C003D9B3D /* ExtraLargeAppCell.xib */,
+				58757F6E23AA0A5C003D9B3D /* postCell.xib */,
+				58757F6923AA0A5C003D9B3D /* SectionTitleCell.swift */,
+				58757F6623AA0A5C003D9B3D /* SectionTitleCell.xib */,
+				58757F6A23AA0A5C003D9B3D /* TodayTitleCell.xib */,
+				58757F6C23AA0A5C003D9B3D /* TodayTitleCell.swift */,
+				58757F5923AA0A5C003D9B3D /* TermsAndConditionSection.swift */,
+				58757F6323AA0A5C003D9B3D /* TermsAndConditionsCell.swift */,
+				58757F6423AA0A5C003D9B3D /* TermsAndConditionsCell.xib */,
+			);
+			name = "UICollectionView Cells";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39277A031B58228000293F95 /* Wordpress Reader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39277A1E1B58228000293F95 /* Build configuration list for PBXNativeTarget "Wordpress Reader" */;
+			buildPhases = (
+				A6E9DF34CC4251602FF85D01 /* [CP] Check Pods Manifest.lock */,
+				39277A001B58228000293F95 /* Sources */,
+				39277A011B58228000293F95 /* Frameworks */,
+				39277A021B58228000293F95 /* Resources */,
+				39DB61841B8891EE001BFF8F /* Embed Frameworks */,
+				A13A49033994EE5B98721786 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wordpress Reader";
+			productName = LNPopupControllerExample;
+			productReference = 39277A041B58228000293F95 /* UVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		392779FC1B58228000293F95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "UVC Media";
+				TargetAttributes = {
+					39277A031B58228000293F95 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = AYX98BT89Z;
+						LastSwiftMigration = 1100;
+					};
+				};
+			};
+			buildConfigurationList = 392779FF1B58228000293F95 /* Build configuration list for PBXProject "Wordpress Reader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 392779FB1B58228000293F95;
+			productRefGroup = 39277A051B58228000293F95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39277A031B58228000293F95 /* Wordpress Reader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39277A021B58228000293F95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58757F8623AA0A5C003D9B3D /* ExtraLargeAppCell.xib in Resources */,
+				58757F8123AA0A5C003D9B3D /* TodayTitleCell.xib in Resources */,
+				58757F7D23AA0A5C003D9B3D /* SectionTitleCell.xib in Resources */,
+				58F06CA223AD683E00413162 /* TodayAppCell.xib in Resources */,
+				58757F7F23AA0A5C003D9B3D /* SmallAppCell.xib in Resources */,
+				39140B901DBD69540036A6C5 /* Main.storyboard in Resources */,
+				58757F7B23AA0A5C003D9B3D /* TermsAndConditionsCell.xib in Resources */,
+				39277A171B58228000293F95 /* Assets.xcassets in Resources */,
+				58757F8523AA0A5C003D9B3D /* postCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A13A49033994EE5B98721786 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wordpress Reader/Pods-Wordpress Reader-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AcknowList/AcknowList.framework",
+				"${BUILT_PRODUCTS_DIR}/DefaultsKit/DefaultsKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IBPCollectionViewCompositionalLayout/IBPCollectionViewCompositionalLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/PeekPop/PeekPop.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SPAlert/SPAlert.framework",
+				"${BUILT_PRODUCTS_DIR}/SPFakeBar/SPFakeBar.framework",
+				"${BUILT_PRODUCTS_DIR}/SPStorkController/SPStorkController.framework",
+				"${BUILT_PRODUCTS_DIR}/SimpleAnimation/SimpleAnimation.framework",
+				"${BUILT_PRODUCTS_DIR}/SkeletonView/SkeletonView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyShadow/SwiftyShadow.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeableTabBarController/SwipeableTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/TORoundedButton/TORoundedButton.framework",
+				"${BUILT_PRODUCTS_DIR}/TOScrollBar/TOScrollBar.framework",
+				"${BUILT_PRODUCTS_DIR}/VegaScrollFlowLayout/VegaScrollFlowLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AcknowList.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DefaultsKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IBPCollectionViewCompositionalLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PeekPop.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SPAlert.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SPFakeBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SPStorkController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SimpleAnimation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkeletonView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyShadow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeableTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TORoundedButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TOScrollBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VegaScrollFlowLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wordpress Reader/Pods-Wordpress Reader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6E9DF34CC4251602FF85D01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wordpress Reader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39277A001B58228000293F95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58757FA623AA0ADC003D9B3D /* ButtonExtension.swift in Sources */,
+				5870863723BC4A90004B0721 /* CategoryViewController.swift in Sources */,
+				3938FAEF1B6BE4FD009FD48A /* LoremIpsum.m in Sources */,
+				58757F9E23AA0ADC003D9B3D /* UIView.swift in Sources */,
+				39277A0C1B58228000293F95 /* AppDelegate.m in Sources */,
+				58757F8023AA0A5C003D9B3D /* SectionTitleCell.swift in Sources */,
+				58856C6E23C46AF7009FAD85 /* Sources.swift in Sources */,
+				39DA0E8322D7B9C6001E63A0 /* NSObject+XcodeBugs.m in Sources */,
+				39277A091B58228000293F95 /* main.m in Sources */,
+				39837A201B756F1A004D2DA9 /* RandomColors.m in Sources */,
+				5842A04C23AEDBB6003175C3 /* UserDefaults.swift in Sources */,
+				58757F7A23AA0A5C003D9B3D /* TermsAndConditionsCell.swift in Sources */,
+				58757F5423AA09EC003D9B3D /* TodayViewController.swift in Sources */,
+				58757F7C23AA0A5C003D9B3D /* SmallAppCell.swift in Sources */,
+				58A8759723AAD4B0005738A8 /* cvLayout.swift in Sources */,
+				58E3662B23C76B17000CBA3F /* CategoryListViewController.swift in Sources */,
+				58757FA123AA0ADC003D9B3D /* WordPress.swift in Sources */,
+				58856C7023C526CB009FAD85 /* Firebase.swift in Sources */,
+				58757FA723AA0ADC003D9B3D /* UIImage.swift in Sources */,
+				58757F8423AA0A5C003D9B3D /* ExtraLargeAppCell.swift in Sources */,
+				58757FA323AA0ADC003D9B3D /* HTMLString.swift in Sources */,
+				584EB19923AA104200284B7B /* SubmissionsViewController.swift in Sources */,
+				58757F7323AA0A5C003D9B3D /* TermsAndConditionSection.swift in Sources */,
+				58A8759F23AC747C005738A8 /* Shadows.swift in Sources */,
+				39837A261B759721004D2DA9 /* PortraitTabBarController.swift in Sources */,
+				58757F8323AA0A5C003D9B3D /* TodayTitleCell.swift in Sources */,
+				5875C79823C692B200AD7B3C /* UITableView.swift in Sources */,
+				58F06CA523AD685C00413162 /* TodayAppSection.swift in Sources */,
+				5875C79623C6926400AD7B3C /* AzuraCast.swift in Sources */,
+				584EB19D23AA1A0200284B7B /* SearchViewController.swift in Sources */,
+				58856C6B23C3DF2D009FAD85 /* WordpressSites.swift in Sources */,
+				58F06CA323AD683E00413162 /* TodayAppCell.swift in Sources */,
+				39631FAD230DA03E0059D119 /* SceneDelegate.m in Sources */,
+				5875C79C23C6946C00AD7B3C /* YouTubeAPI.swift in Sources */,
+				58757F7423AA0A5C003D9B3D /* SmallAppSection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		39277A1C1B58228000293F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39277A1D1B58228000293F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39277A1F1B58228000293F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0018F1058F79BA629E80CD7 /* Pods-Wordpress Reader.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				DEVELOPMENT_TEAM = AYX98BT89Z;
+				INFOPLIST_FILE = "Wordpress Reader/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 4.3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.uvc;
+				PRODUCT_NAME = UVC;
+				PROVISIONING_PROFILE = "";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Wordpress Reader/Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39277A201B58228000293F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 111C4CD1282C63DD6655F197 /* Pods-Wordpress Reader.release.xcconfig */;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				DEVELOPMENT_TEAM = AYX98BT89Z;
+				INFOPLIST_FILE = "Wordpress Reader/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 4.3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.uvc;
+				PRODUCT_NAME = UVC;
+				PROVISIONING_PROFILE = "";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Wordpress Reader/Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		392779FF1B58228000293F95 /* Build configuration list for PBXProject "Wordpress Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39277A1C1B58228000293F95 /* Debug */,
+				39277A1D1B58228000293F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39277A1E1B58228000293F95 /* Build configuration list for PBXNativeTarget "Wordpress Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39277A1F1B58228000293F95 /* Debug */,
+				39277A201B58228000293F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 392779FC1B58228000293F95 /* Project object */;
+}
