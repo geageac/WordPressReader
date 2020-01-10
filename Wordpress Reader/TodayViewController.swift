@@ -133,11 +133,12 @@ class TodayViewController: UIViewController {
     
     func logoTitle(url: String) {
         if let logoURL = URL(string: url) {
-            imageView.sd_setImage(with: logoURL, completed: nil)
+            imageView.tintColor = .systemPink
+            imageView.sd_setImage(with: logoURL, completed: { image, error, cacheType, imageURL in
+                self.imageView.image = image?.withRenderingMode(.alwaysTemplate)
+            })
             imageView.widthAnchor.constraint(equalToConstant: 96).isActive = true
             imageView.contentMode = .scaleAspectFit
-            imageView.image = imageView.image?.withRenderingMode(.alwaysTemplate)
-            imageView.tintColor = .systemPink
             let stackView = UIStackView()
             stackView.addArrangedSubview(imageView)
             navigationItem.titleView = stackView
