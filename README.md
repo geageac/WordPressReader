@@ -23,7 +23,7 @@ An iOS application to parse WordPress blogs
 1. Clone this repository
 
 ```swift
-git clone https://github.com/UVC-Media/WordpressReader
+git clone https://github.com/uvcmedia/WordpressReader
 ```
 
 2. Install CocoaPods dependencies
