@@ -121,7 +121,9 @@ class TodayViewController: UIViewController {
     }
     
     @objc func showCategoryListViewController() {
+        let cachedCategories = getCachedCategories()
         let vc = CategoryListViewController()
+        vc.cachedCategories = cachedCategories
         navigationController?.pushViewController(vc, animated: true)
     }
     

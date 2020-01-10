@@ -9,6 +9,7 @@
 import Foundation
 
 class CategoryListViewController: UITableViewController {
+    public var cachedCategories : [Category]?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,7 +27,7 @@ class CategoryListViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return getCachedCategories().count
+        return cachedCategories!.count
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -35,7 +36,7 @@ class CategoryListViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "tableCell", for: indexPath) as! tableCell
-        let category = getCachedCategories()[indexPath.row]
+        let category = cachedCategories?[indexPath.row]
         cell.configureWith(category: category)
         cell.backgroundColor = .clear
         return cell
