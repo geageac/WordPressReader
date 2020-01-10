@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import Nuke
 
 extension UIImage {
     
@@ -35,6 +36,11 @@ extension UIImage {
     }
     
 }
+
+let imageOptions = ImageLoadingOptions(
+    placeholder: UIImage(named: "placeholder"),
+    transition: .fadeIn(duration: 0.33)
+)
 
 var debug : Bool = true
 var primaryColorOverride : Bool = false
