@@ -16,7 +16,7 @@ class TodayViewController: UIViewController {
     var sections: [Section]?
     var collectionView : UICollectionView?
     var collectionViewLayout : UICollectionViewLayout?
-    
+
     override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
         fetch()
     }
@@ -147,13 +147,15 @@ class TodayViewController: UIViewController {
     
     func setupNavBar() {
         if currentSite.hasLogoURL() {
+            navigationItem.title = currentSite.name
             guard let logoURL = currentSite.logoURL else { return }
             logoTitle(url: logoURL)
         } else {
             navigationItem.titleView = nil
-            title = currentSite.name
+            navigationItem.title = currentSite.name
         }
         let style = UINavigationBarAppearance()
+        style.titleTextAttributes = [.foregroundColor: UIColor.systemPink]
         style.backgroundColor = .clear
         style.shadowColor = UIColor.clear // Effectively removes the border
         navigationController?.navigationBar.standardAppearance = style
@@ -268,7 +270,8 @@ extension TodayViewController: UICollectionViewDelegate {
                 (action:UIAlertAction) in
                 setCachedCategories(categories: [])
                 setCachedArticles(posts: [])
-                setRecentSite(site: currentSite)
+                setRecentSite(site: wpSite)
+                currentSite = wpSite
                 print("Changing site to:", currentSite.name)
                 self.collectionView?.fadeOut()
                 self.startLoadingIndicator()
