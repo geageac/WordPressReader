@@ -31,19 +31,19 @@ class ExtraLargeAppCell: UICollectionViewCell {
     }
     
     @objc func showMedia() {
-        if cellType == .video {
-            print("video")
-            let config = SFSafariViewController.Configuration()
-            config.entersReaderIfAvailable = true
-            let vc = SFSafariViewController(url: (video?.link!)!, configuration: config)
-            self.window?.rootViewController?.presentAsStork(vc)
-        }
-        if cellType == .post {
-            print("post")
-            let config = SFSafariViewController.Configuration()
-            config.entersReaderIfAvailable = true
-            let vc = SFSafariViewController(url: post!.link, configuration: config)
-            self.window?.rootViewController?.presentAsStork(vc)
+        switch (cellType) {
+            case .video:
+                let config = SFSafariViewController.Configuration()
+                config.entersReaderIfAvailable = true
+                let vc = SFSafariViewController(url: (video?.link!)!, configuration: config)
+                self.window?.rootViewController?.presentAsStork(vc)
+            case .post:
+                let config = SFSafariViewController.Configuration()
+                config.entersReaderIfAvailable = true
+                let vc = SFSafariViewController(url: post!.link, configuration: config)
+                self.window?.rootViewController?.presentAsStork(vc)
+            case .none:
+                return
         }
     }
 }
